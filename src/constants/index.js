@@ -1,5 +1,5 @@
 import { facebook, instagram, shieldTick, support, truckFast, twitter } from "../assets/icons";
-import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
+import { bigShoe1, bigShoe2, bigShoe3, customer1, customer2,customer3, shoe4, shoe5, shoe6, shoe7, thumbnailShoe1, thumbnailShoe2, thumbnailShoe3 } from "../assets/images";
 
 export const navLinks = [
     { href: "#home", label: "Home" },
@@ -73,15 +73,21 @@ export const services = [
 export const reviews = [
     {
         imgURL: customer1,
-        customerName: 'Morich Brown',
+        customerName: 'Robert Runse',
         rating: 4.5,
         feedback: "The attention to detail and the quality of the product exceeded my expectations. Highly recommended!"
     },
     {
         imgURL: customer2,
-        customerName: 'Lota Mongeskar',
-        rating: 4.5,
+        customerName: 'Minerava Doje',
+        rating: 4.7,
         feedback: "The product not only met but exceeded my expectations. I'll definitely be a returning customer!"
+    },
+    {
+        imgURL:customer3,
+        customerName: 'Hanskin Donskin',
+        rating: 4.3,
+        feedback:"I. Love. These. I knocked 35 seconds off my 5km time with a lower average HR! I recommend these shoes to any runner out there."
     }
 ];
 
@@ -111,8 +117,8 @@ export const footerLinks = [
     {
         title: "Get in touch",
         links: [
-            { name: "customer@nike.com", link: "mailto:customer@nike.com" },
-            { name: "+92554862354", link: "tel:+92554862354" },
+            { name: "customer@nike.com", link: "mailto:neyvil.gmail.com" },
+            { name: "Nabajyoti", link: "tel:+92554862354" },
         ],
     },
 ];
